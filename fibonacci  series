@@ -1,0 +1,29 @@
+METHOD 1:
+terms=int(input())
+n1,n2=0,1
+sum=0
+if terms<=0:
+    print("another value")
+else:
+    for i in range(terms):
+        print(sum,end=" ")
+        n1=n2
+        n2=sum
+        sum=n1+n2
+        
+METHOD 2:
+def fibo(n):
+    if n<=0:
+        return "incrt input"
+    elif n==1:
+        return 0
+    elif n==2:
+        return 1
+    else:
+        return fibo(n-1)+fibo(n-2)
+n=int(input())
+print(fibo(n))
+
+        
+input: 5
+output: 0 1 1 2 3
