@@ -1,0 +1,21 @@
+METHOD 1:
+
+str=input()
+if str==str[::-1]:
+    print("palindrome")
+else:
+    print("not palindrome")
+    
+METHOD 2:
+
+str=input()
+rev=""
+for i in str:
+    rev=i+rev
+if str==rev:
+    print("palindrome")
+else:
+    print("not palindrome")
+    
+input: madam
+output: palindrome
