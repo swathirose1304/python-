@@ -1,0 +1,16 @@
+n=int(input())
+length=len(str(n))
+num=n
+d=0
+sum=0
+for i in range(length):
+    d=num%10
+    sum=sum+pow(d,length)
+    num=num//10
+if sum==n:
+    print("yes")
+else:
+    print("no")
+    
+input: 371  (3^3+7^3+1^3=27+343+1=371)
+outout: 371
