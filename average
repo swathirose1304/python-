@@ -1,0 +1,8 @@
+list=[]
+for i in range(5):
+    ele=int(input())
+    list.append(ele)
+print(list)
+l=len(list)
+avg=sum(list)/l
+print(avg)
