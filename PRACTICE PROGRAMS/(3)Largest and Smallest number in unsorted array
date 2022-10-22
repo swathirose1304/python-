@@ -13,7 +13,7 @@ max=arr[0]
 for i in range(len(arr)):
     if arr[i]<min:
         min=arr[i]
-    else:
+    elif arr[i]>max:
         max=arr[i]
 print(max,min)
 
@@ -23,4 +23,4 @@ OUTPUT:
 largest num: 9
 smallest num: 1
 
-1 9
+9 1
