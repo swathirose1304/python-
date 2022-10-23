@@ -1,0 +1,18 @@
+#Removing duplicates from array
+arr=[2,6,8,7,2,5,6]
+rem_dup=[]
+for i in arr:
+    if i not in rem_dup:
+        rem_dup.append(i)
+print(rem_dup)
+OUTPUT:
+[2,6,8,7,5]
+
+#Removing duplicates in place
+arr=[1,1,1,2,2,3,3,4]
+for i in range(len(arr)-1,0,-1):
+    if arr[i]==arr[i-1]:
+        del arr[i]
+print(arr)
+OUTPUT:
+[1,2,3,4]
