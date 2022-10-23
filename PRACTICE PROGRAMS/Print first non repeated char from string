@@ -1,0 +1,9 @@
+
+#Print first non repeated char from string
+s="good evening"
+for i in s:
+    if s.count(i)==1:
+        print(i)
+        break
+OUTPUT:
+d
