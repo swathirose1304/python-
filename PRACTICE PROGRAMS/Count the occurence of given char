@@ -1,0 +1,11 @@
+
+#Count the occurence of given char
+s="malayalam"
+gvn_char="m"
+cnt=0
+for i in s:
+    if i==gvn_char:
+        cnt+=1
+print(cnt)
+OUTPUT:
+2
