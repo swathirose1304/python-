@@ -1,0 +1,13 @@
+#Print duplicate char from string
+string="goodmorning"
+s1=""
+for i in range(len(string)):
+    for j in range(i+1,len(string)):
+        if string[i]==string[j]:
+            if string[i] in s1:
+                break
+            else:
+                s1=s1+string[i]
+print(s1)
+OUTPUT:
+g o n
