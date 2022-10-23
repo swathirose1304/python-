@@ -1,0 +1,11 @@
+#Check two strings are anagrams
+def check_anagrams(str1,str2):
+    if sorted(str1)==sorted(str2):
+        print("Anagrams")
+    else:
+        print("not anagrams")
+str1="python"
+str2="yphtno"
+check_anagrams(str1,str2)
+OUTPUT:
+Anagrams
