@@ -1,0 +1,8 @@
+#Check if str contains only digits
+str1="13345n"
+if str1.isdigit():
+    print("yes")
+else:
+    print("no")
+OUTPUT:
+no
