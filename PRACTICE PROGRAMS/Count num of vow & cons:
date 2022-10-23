@@ -1,0 +1,13 @@
+#Count num of vow & cons:
+s="Vowels and Consonents"
+c_vow=0
+c_cons=0
+s=s.lower()
+for i in s:
+    if i in ('a','e','i','o','u'):
+        c_vow+=1
+    elif (i>='a' and i<='z'):
+        c_cons+=1
+print(c_vow,c_cons)
+OUTPUT:
+6 13
